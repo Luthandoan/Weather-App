@@ -1,0 +1,132 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+} 
+
+body {
+    background: linear-gradient(to right, #ff758c, #ff7eb3, #64b3f4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    width: 90%;
+    max-width: 450px;
+    background: linear-gradient(135deg, #ff96ad, #9f75ff);
+    border-radius: 20px;
+    padding: 40px 35px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: white;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    padding: 10px 25px;
+    border-radius: 30px;
+    flex: 1;
+    background: #e4d9f5; 
+    height: 60px;
+    margin-right: 16px;
+    font-size: 18px;
+    color: #554c84; 
+    border: 2px solid #ff7eb3;
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    background: #8aa7ff; 
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 10px rgba(138, 167, 255, 0.3);
+}
+
+.search button img {
+    width: 16px;
+}
+
+.weather-icon {
+    width: 170px;
+    margin-top: 30px;
+}
+
+.weather h1 {
+    font-size: 80px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.weather h2 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+    color: #ffe4e1; 
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity, .wind {
+    margin-top: -6px;
+    font-size: 28px;
+    color: #d3c4f3; 
+}
+
+.weather {
+    display: none;
+}
+
+.error {
+    text-align: left;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #ff5f7e;
+    display: none;
+}
+.search button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(255, 182, 193, 0.5);}
+
+.app-title {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-top: 10px;  
+    margin-bottom: 50px;
+}
